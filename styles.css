@@ -1,0 +1,188 @@
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:goldenrod;
+}
+
+.sasha {
+    width: 400px;
+    border-radius: 48px;
+    box-shadow:mediumseagreen;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color:#86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-transform:none;*/
+    /*letter-spacing: 5px;*/
+    /*word-spacing: 5px;*/
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+}
+
+
+.social {
+    background: coral;
+    padding: 15px 20px 25px 30px;
+    border: 5px solid slateblue;
+    border-bottom-style: double;
+    border-top-width: 10px;
+
+}
+
+.bg-yellow {
+    background:deepskyblue;
+}
+
+.bg-green {
+    background:deepskyblue;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list {
+    color:0f141e;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table tr:nth-child(even) {
+    background:olive;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color:black;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row >.form-group:first-child {
+    width: 50%;
+    margin-right: 0;
+}
+
+.btn {
+    background:maroon;
+    padding: 15px 20px;
+    color:dodgerblue;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.position {
+    position: relative;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 11100px;
+    height: 25px;
+    background:khaki;
+}
+
+
+.box p {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0px;
+    margin-left: 540px;
+    color:maroon;
+    font-family: matura mt script capitals;
+}
